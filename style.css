@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202332;
+}
+h1{
+    color: #ddd
+}
+h2{
+    color: #ddd
+}
+p{
+    color: #ddd
+}
+a{
+    color: #976363
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 20px;
+}
+.repos {
+    margin-top: 20px;
+}
+.repo {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #474b6d;
+    border-radius: 5px;
+}
